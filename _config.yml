@@ -1,0 +1,29 @@
+title: CurriculumCrafter
+description: A platform for curriculum development
+baseurl: "/CurriculumCrafter" # the name of your repository
+url: "" # the base hostname & protocol for your site
+
+markdown: kramdown
+theme: jekyll-theme-primer
+
+exclude:
+  - react-flask/flask-server/flask_env/
+  - "*.pyc"
+  - __pycache__
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .git
+  - .github
+
+include:
+  - _pages
+  - assets
+  
+plugins:
+  - jekyll-seo-tag
+  - jekyll-github-metadata
