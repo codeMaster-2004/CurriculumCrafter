@@ -1,34 +1,12 @@
-title: CurriculumCrafter
-description: A platform for curriculum development
 baseurl: "/CurriculumCrafter"
 url: ""
 
-markdown: kramdown
-theme: jekyll-theme-primer
-
-source: react-flask/client-side  # Point to your React app directory
-destination: ./_site
-
 exclude:
-  - node_modules
-  - build
-  - src
-  - public
-  - package.json
-  - package-lock.json
-  - README.md
-  - .gitignore
-  - ../flask-server/
-  - ../flask-server/flask_env/
+  - react-flask/flask-server/
   - "*.pyc"
   - __pycache__
-
-include:
-  - build
-  - "*.html"
-  - "*.js"
-  - "*.css"
-
-plugins:
-  - jekyll-seo-tag
-  - jekyll-github-metadata
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
