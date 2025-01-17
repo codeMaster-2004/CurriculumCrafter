@@ -23,7 +23,7 @@ exclude:
 include:
   - _pages
   - assets
-  
+
 plugins:
   - jekyll-seo-tag
   - jekyll-github-metadata
